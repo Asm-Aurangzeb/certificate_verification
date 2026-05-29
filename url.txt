@@ -5,4 +5,4 @@
 # লোকাল Wi-Fi টেস্ট (PC IP দিয়ে):
 # http://192.168.0.105:8765/certificate.html
 
-http://192.168.0.105:8765/certificate.html
+https://asm-aurangzeb.github.io/certificate_verification/certificate.html
