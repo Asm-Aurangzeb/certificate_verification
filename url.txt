@@ -1,0 +1,8 @@
+# এখানে certificate.html-এর পাবলিক লিংক লিখুন (এক লাইন)
+# উদাহরণ GitHub Pages:
+# https://YOUR_USERNAME.github.io/dos-cop-verification/certificate.html
+#
+# লোকাল Wi-Fi টেস্ট (PC IP দিয়ে):
+# http://192.168.0.105:8765/certificate.html
+
+http://192.168.0.105:8765/certificate.html

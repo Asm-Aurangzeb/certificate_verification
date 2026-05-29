@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#7c8a8e" />
+  <meta name="color-scheme" content="light" />
+  <title>Certificate of Proficiency Verification Result</title>
+  <link rel="preload" href="assets/dos-logo.png" as="image" />
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #ffffff;
+      background-color: #7c8a8e;
+      display: flex;
+      justify-content: center;
+      padding: 28px 16px 48px;
+      position: relative;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Single large arc — right side only, thick stroke (official style) */
+    .bg-arc {
+      position: fixed;
+      width: min(110vw, 920px);
+      height: min(110vw, 920px);
+      right: max(-52vw, -420px);
+      top: 50%;
+      transform: translateY(-48%);
+      border: 4px solid rgba(255, 255, 255, 0.16);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 640px;
+      text-align: center;
+    }
+
+    .logo-wrap {
+      margin-bottom: 20px;
+      line-height: 0;
+    }
+
+  .logo {
+      display: block;
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      object-fit: contain;
+      border: none;
+      outline: none;
+      box-shadow: none;
+      background: transparent;
+      /* White square in PNG blends into page background */
+      mix-blend-mode: multiply;
+    }
+
+    h1 {
+      font-size: 17px;
+      font-weight: normal;
+      line-height: 1.45;
+      margin-bottom: 28px;
+    }
+
+    .verify-line {
+      font-size: 15px;
+      line-height: 1.55;
+      margin-bottom: 10px;
+    }
+
+    .verify-line strong {
+      font-weight: bold;
+    }
+
+    .course-title {
+      font-size: 15px;
+      font-weight: bold;
+      margin: 14px 0 18px;
+      line-height: 1.45;
+      text-transform: uppercase;
+    }
+
+    .status-line {
+      font-size: 15px;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #1b7a43;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 2px 10px 3px;
+      border-radius: 3px;
+      margin-left: 2px;
+      font-size: 15px;
+      line-height: 1.2;
+      vertical-align: baseline;
+    }
+
+    .details {
+      list-style: none;
+      font-size: 15px;
+      line-height: 2.1;
+    }
+
+    .cdc {
+      color: #70d6ff;
+    }
+
+    @media (min-width: 480px) {
+      .logo {
+        width: 108px;
+        height: 108px;
+      }
+
+      h1 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-arc" aria-hidden="true"></div>
+
+  <main class="content">
+    <div class="logo-wrap">
+      <img
+        class="logo"
+        src="assets/dos-logo.png"
+        alt="Department of Shipping, Bangladesh"
+        width="108"
+        height="108"
+        decoding="async"
+      />
+    </div>
+
+    <h1>Certificate of Proficiency Verification Result</h1>
+
+    <p class="verify-line">
+      The credentials supplied for CoP number <strong>033.141268</strong> are correct.
+    </p>
+
+    <p class="course-title">
+      BASIC TRAINING FOR LIQUEFIED GAS TANKER CARGO OPERATIONS
+    </p>
+
+    <p class="status-line">
+      The status of this certificate is <span class="badge">Valid</span>
+    </p>
+
+    <ul class="details">
+      <li>DoS Registration No. : 20212021.16.033.0221966</li>
+      <li>Date of Issue : 127-10-2021</li>
+      <li>Expiry Date : 062-07-2026</li>
+      <li>Revalidated Upto : 056-07-2031</li>
+      <li>Name of Seafarer : ABbbbbU SYEED MD. AURANGZEB AL MASUM</li>
+      <li>Date of Birth : 20-01-19855554</li>
+      <li>CDC No : <span class="cdc">C/O/55813</span></li>
+    </ul>
+  </main>
+</body>
+</html>
